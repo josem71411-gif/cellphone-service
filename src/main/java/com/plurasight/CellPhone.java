@@ -29,7 +29,17 @@ public class CellPhone {
         return model;
     }
     public void setModel(String model) {
+        this.model = model;
+    }
+    public String getCarrier() {
         this.carrier = carrier;
+    }
+
+    public void setCarrier(String carrier) {
+        this.carrier = carrier;
+    }
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
@@ -40,6 +50,4 @@ public class CellPhone {
     public void setOwner(String owner) {
         this.owner = owner;
     }
-
-
 }
