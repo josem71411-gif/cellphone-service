@@ -4,7 +4,7 @@ public class CellPhone {
 
     //data members
     private  int serialNumber;
-    private final String model;
+    private String model;
     private  String carrier;
     private String phoneNumber;
     private String owner;
@@ -31,8 +31,9 @@ public class CellPhone {
     public void setModel(String model) {
         this.model = model;
     }
+
     public String getCarrier() {
-        this.carrier = carrier;
+        return carrier;
     }
 
     public void setCarrier(String carrier) {

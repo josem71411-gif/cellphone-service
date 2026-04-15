@@ -14,8 +14,9 @@ public class CellphoneApplication {
         phone.setOwner("Danna wyatt");
 
         //Display Values
-
-
-
+        System.out.println("Serial Number: "+ phone.getSerialNumber());
+        System.out.println("Model: "+ phone.getCarrier());
+        System.out.println("Phone Number: "+ phone.getPhoneNumber());
+        System.out.println("Owner: " + phone.getOwner());
     }
 }
